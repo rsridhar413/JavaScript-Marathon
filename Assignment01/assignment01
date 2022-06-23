@@ -1,1 +1,25 @@
 
+1) Explain the use of JavaScript ( or What you can do using a JavaScript)?
+    Javascript is the programming language that made the world wide web what it is today. Since its a evolving language and its powerful.
+    Using javascript we can do "backend programming","web application","API","mobile application","desktop application","games".
+
+2) What is the difference between client-side and server-side?
+    Client Side -> programs that runs on the user's device and it interacts with the users request.
+    Server Side -> programs that runs on the server and returns the reponse based on the client's request.
+    Example : Bankwebsites -> when user request the account statement,  the account statements are fetchec from the banks server as a response to the request.
+     
+3) What is Nodejs?
+    Nodejs is the runtime environment to run the javascript code outside the browser.
+    
+4) Explain Scope in JavaScript?
+     Scope in javascript is where the variable or a function is accessible for run.
+ 
+5) JavaScript is asynchronous or synchronous?
+     JavaScript is synchronous.
+     
+6) JavaScript is Single-threaded or Multi-threaded?
+    Javascript is Single-threaded.
+    
+7) Explain DOM in your own word?
+    DOM is programming interface for the HTML documents or XML documents. it allows scripts to change the content, structure & style of the document.
+     
