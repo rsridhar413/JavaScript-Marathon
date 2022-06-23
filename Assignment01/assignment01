@@ -6,7 +6,7 @@
 2) What is the difference between client-side and server-side?
     Client Side -> programs that runs on the user's device and it interacts with the users request.
     Server Side -> programs that runs on the server and returns the reponse based on the client's request.
-    Example : Bankwebsites -> when user request the account statement,  the account statements are fetchec from the banks server as a response to the request.
+    Example : Bankwebsites -> when user request the account statement,  the account statements are fetched from the banks server as a response to the request.
      
 3) What is Nodejs?
     Nodejs is the runtime environment to run the javascript code outside the browser.
