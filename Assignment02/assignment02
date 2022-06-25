@@ -1,0 +1,149 @@
+1) What is lexical structure?
+    Its a basic rule how a language is specified or written.
+    Ex: Javascript is case sensitive. 
+    
+    
+2) What is Unicode?
+    Unicode -> its a consistent encoding , representation and handling of written text. we can use emojis as variable name in Javascript.
+    
+3) Explain all the keywords present in the JavaScript with examples.
+    Keywords are reserved words in JS holding some special meaning.
+1. if
+2. else
+        Ex: if(true){
+             alert('Good');
+             }
+3. for
+        Ex: for(let a=0; a<10; a++){
+            console.log(a);
+            }
+4. switch
+5. case
+6. break
+7. let
+8. default
+        Ex: let valueOne = 1;
+            switch(valueOne){
+            case 0: console.log(valueOne);
+            break;
+            case 1: console.log(valueOne);
+            break;
+            default: console.log("value");
+            break;
+            }
+ 9. true
+10. false
+         Ex: let booleanValue = true;
+             let booleanValue = false;
+11. const
+          Ex: const valueConst = 10;
+12. try
+13. catch
+14. finally
+15. throw
+          Ex: let checkValue = 2;
+              try{
+                if(checkValue > 0) throw "positive";
+              } catch (msg) {
+                console.log(msg);
+              } finally{
+                console.log("finally block");
+              }
+16. while
+           Ex: let valueThree = 10;
+               while( valueThree <= 0)
+                {
+                  console.log(valueThree);
+                  valueThree--;
+                  }
+17. do
+18.continue
+19.yield
+           Ex:
+              let valueThree = 10;
+               do {
+                 console.log(valueThree);
+                 yield a--;
+                 continue;
+                 }
+                 while(a <= 10)
+ 20. function
+ 21. return
+ 22. debugger
+             Ex: const printFunc = function(value){
+                 debugger;
+                 return value;
+                 }
+                 console.log(printFunc());
+ 23. new
+         Ex: CreateObject createObj = new CreateObject();
+ 24. typeof
+         Ex: const stringOne = "name";
+             console.log(typeof stringOne);
+ 25. class
+ 26. constructor
+ 27. this
+ 28. extends
+ 29. super
+ 30. instanceof
+ 31. static
+           Ex: class MainClass{
+                constructor(name){
+                  this.name = name;
+                 }
+                  static hello() {
+                    return "Hello!!";
+                  }
+               }
+               class BaseClass extends MainClass{
+                  constructor(name, title){
+                   super(name);
+                   this.title = title;
+                  }
+               let classObj =  new BaseClass();
+               console.log(classObj instanceof MainClass);
+32. null
+     Ex: const splValue = null;
+33. interface
+34. implements
+     Ex: interface person {
+             name:string;
+         }
+         class jack implements person{
+         }
+35. export 
+36. import
+     Ex: export function sayHi() { ... }
+         import {sayHi} from 'filename.js'
+37. enum
+     Ex:
+         enum Sides {
+           north,
+           south,
+           west,
+           east
+           }
+38. in
+     Ex:  let icecreams = ["vanilla","kesar","chocolate"]
+          console.log(2 in icecream);
+          
+39. with
+40. private
+41. protected
+42. eval
+43. package
+44. void
+45. final
+46. arguments
+47. delete
+48. var
+
+
+4) What are shorthand operators, explain with a suitable example? 
+        Shorter way of expressing something that is already availble in programming statements.
+        Ex : a= a + b; can be written as a += b;
+        
+5) What is “use Strict” in JavaScript?
+        Code should be executed in strict mode . it improves better programming practices and eliminates some exceptions.
+             
+        
